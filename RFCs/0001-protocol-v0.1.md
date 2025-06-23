@@ -7,13 +7,13 @@
 
 ---
 
-## 🎯 Summary
+## Summary
 
 This RFC proposes the v0.1 release of the **HookMarked Protocol**, a community-driven specification for defining, discovering, securing, and delivering webhooks in a consistent, validated, and replayable way.
 
 ---
 
-## 📦 Motivation
+## Motivation
 
 Webhooks power system-to-system automation, but the current ecosystem suffers from:
 
@@ -27,7 +27,7 @@ Webhooks power system-to-system automation, but the current ecosystem suffers fr
 
 ---
 
-## 📐 Specification Overview
+## Specification Overview
 
 ### 1. Webhook Discovery
 
@@ -125,7 +125,7 @@ Webhooks power system-to-system automation, but the current ecosystem suffers fr
   Clients should declare support in X-Hookmarked-Version or Accept headers
 
 
-🧩 Extensibility
+ **Extensibility**
   Future features may include:
   
     Delivery receipts
@@ -136,14 +136,14 @@ Webhooks power system-to-system automation, but the current ecosystem suffers fr
     
     Spec is versioned to allow backward-compatible extensions
 
-📘 Tooling
+**Tooling**
   hookmarked-cli: Validate discovery files, schemas, and simulate deliveries
 
   hookmarked-site: Web-based docs, playground, and reference validator
 
   SDKs in Node.js, Python, Go (planned)
 
-🧠 Adoption Goals
+**Adoption Goals**
   SaaS platforms
   
   Developer APIs
@@ -152,8 +152,8 @@ Webhooks power system-to-system automation, but the current ecosystem suffers fr
   
   Event-driven backends
 
-📅 Changelog
+** Changelog**
   2025-06-23: Initial draft of HookMarked Protocol v0.1
 
-🪪 License
+**License**
   MIT
