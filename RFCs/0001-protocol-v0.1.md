@@ -52,8 +52,8 @@ Webhooks power system-to-system automation, but the current ecosystem suffers fr
     ]
   }
 
-
-**### 2. Payload Schema Definition**
+```
+### 2. Payload Schema Definition
 
   Hook payloads must follow JSON Schema Draft-07 or newer
   
@@ -85,7 +85,7 @@ Webhooks power system-to-system automation, but the current ecosystem suffers fr
     }
   }
 
-**### 3. Security & Signing**
+### 3. Security & Signing
 
   Delivery requests must include an HMAC-SHA256 signature in the X-Hookmarked-Signature header
 
@@ -98,7 +98,7 @@ Webhooks power system-to-system automation, but the current ecosystem suffers fr
     X-Hookmarked-Nonce to prevent duplication
 
 
-**### 4. Delivery Rules**
+### 4. Delivery Rules
   Webhooks are delivered via HTTP POST
 
   Expected receiver responses:
@@ -119,7 +119,7 @@ Webhooks power system-to-system automation, but the current ecosystem suffers fr
 
 
 
-**### 5. Versioning**
+### 5. Versioning
   The discovery file and schema URLs must indicate a protocol or payload version
 
   Clients should declare support in X-Hookmarked-Version or Accept headers
@@ -152,7 +152,7 @@ Webhooks power system-to-system automation, but the current ecosystem suffers fr
   
   Event-driven backends
 
-** Changelog**
+**Changelog**
   2025-06-23: Initial draft of HookMarked Protocol v0.1
 
 **License**
