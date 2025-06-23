@@ -6,16 +6,16 @@
 
 ## 🔧 What’s Included
 
-- 📚 `/.well-known/hooks.json` discovery spec
-- 📐 JSON Schema-based webhook definitions
-- 🔐 Signed delivery via HMAC SHA-256
-- 🔁 Retry policies and delivery metadata
-- ✅ CLI tool to validate payloads and specs
-- 🧩 Ecosystem of SDKs and integrations (coming soon)
+- `/.well-known/hooks.json` discovery spec
+- JSON Schema-based webhook definitions
+- Signed delivery via HMAC SHA-256
+- Retry policies and delivery metadata
+- CLI tool to validate payloads and specs
+- Ecosystem of SDKs and integrations (coming soon)
 
 ---
 
-## 🚀 Repos
+## Repos
 
 - [`hookmarked-spec`](https://github.com/hookmarked/hookmarked-spec): Protocol spec & RFCs  
 - [`hookmarked-cli`](https://github.com/hookmarked/hookmarked-cli): Validator and simulation CLI  
@@ -23,26 +23,26 @@
 
 ---
 
-## 🧠 Philosophy
+## Philosophy
 
 We believe webhooks should be:
-- ✅ Discoverable
-- 🛡 Secure by default
-- 📐 Schema-defined and testable
-- 🔁 Retry-safe and traceable
+- Discoverable
+- Secure by default
+- Schema-defined and testable
+- Retry-safe and traceable
 
 Let’s make webhooks boring — and beautiful.
 
 ---
 
-## 💬 Contribute
+## Contribute
 
 We welcome RFC proposals, feedback, and collaborators.  
 See [`/RFCs`](./RFCs) and open an issue to get involved.
 
 ---
 
-## 🪪 License
+## License
 
 MIT
 # hookmarked-spec
